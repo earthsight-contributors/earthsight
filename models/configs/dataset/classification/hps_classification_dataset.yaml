@@ -1,0 +1,4 @@
+# This is a template.
+path: src.datasets.hps_classification_dataset
+name: hps_classification_dataset
+cls: Hps_Classification_Dataset

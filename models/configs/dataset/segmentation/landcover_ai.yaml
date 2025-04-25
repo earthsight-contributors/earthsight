@@ -1,0 +1,4 @@
+# This is a template.
+path: src.datasets.landcover_ai
+name: landcover_ai
+cls: LandCoverAI

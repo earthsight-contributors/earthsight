@@ -1,0 +1,8 @@
+# This is a template.
+path: src.models.faster_rcnn
+name: faster_rcnn
+cls: FasterRCNN
+task: detection 
+type: single
+backbone: b0
+criterion: none

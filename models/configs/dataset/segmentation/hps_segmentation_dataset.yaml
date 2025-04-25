@@ -1,0 +1,4 @@
+# This is a template.
+path: src.datasets.hps_segmentation_dataset
+name: hps_segmentation_dataset
+cls: Hps_Segmentation_Dataset

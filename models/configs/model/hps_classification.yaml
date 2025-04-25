@@ -1,0 +1,9 @@
+# This is a template.
+path: src.models.hps_classification
+name: hps_classification
+cls: HPS_Classification
+task: classification
+type: multi
+backbone: b3
+criterion:
+  _target_: torch.nn.CrossEntropyLoss

@@ -1,0 +1,9 @@
+# This is a template.
+path: src.models.default_model
+name: default_model
+cls: DefaultModel
+task: classification/detection/segmentation 
+type: single/multi
+backbone: 
+criterion:
+  _target_:

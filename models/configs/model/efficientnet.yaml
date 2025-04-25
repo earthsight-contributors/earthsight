@@ -1,0 +1,8 @@
+path: src.models.efficientnet
+name: efficientnet
+cls: EfficientNet
+task: classification
+type: single
+backbone: b0
+criterion:
+  _target_: torch.nn.CrossEntropyLoss

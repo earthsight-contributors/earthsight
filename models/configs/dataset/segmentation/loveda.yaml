@@ -1,0 +1,4 @@
+# This is a template.
+path: src.datasets.loveda
+name: loveda
+cls: LoveDA

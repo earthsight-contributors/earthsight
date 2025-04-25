@@ -1,0 +1,9 @@
+# This is a template.
+path: src.models.hps_segmentation
+name: hps_segmentation
+cls: HPS_Segmentation
+task: segmentation
+type: multi
+backbone: b3
+criterion:
+  _target_: torch.nn.CrossEntropyLoss

@@ -1,0 +1,4 @@
+# This is a template.
+path: src.datasets.deepglobelandcover
+name: deepglobelandcover
+cls: DeepGlobeLandCover

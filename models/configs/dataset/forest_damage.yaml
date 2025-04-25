@@ -1,0 +1,4 @@
+# This is a template.
+path: src.datasets.forest_damage
+name: forest_damage
+cls: ForestDamage

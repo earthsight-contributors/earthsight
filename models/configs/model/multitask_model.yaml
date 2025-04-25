@@ -1,0 +1,9 @@
+# This is a template.
+path: src.models.multitask_model
+name: multitask_model
+cls: MultitaskModel
+task: multi
+type: multi
+backbone: b3
+criterion:
+  _target_: torch.nn.CrossEntropyLoss

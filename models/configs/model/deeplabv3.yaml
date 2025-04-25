@@ -1,0 +1,9 @@
+# This is a template.
+path: src.models.deeplabv3
+name: deeplabv3
+cls: DeepLabV3
+task: segmentation 
+type: single
+backbone: b0
+criterion:
+  _target_: torch.nn.CrossEntropyLoss
